@@ -24,9 +24,9 @@
   console.log(computerChoice);
 
   if (computerChoice == userChoice)
-    alert("You guessed right, the coinflip landed on "+userChoice+ "!")
+    alert(`You guessed right, the coinflip landed on ${userChoice}!`)
   else
-    alert("Sorry, the coinflip landed on "+computerChoice+ ".")
+    alert(`Sorry, the coinflip landed on ${computerChoice}.`)
 
 
 // Part 2 of the assignment
