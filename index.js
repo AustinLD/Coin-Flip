@@ -16,17 +16,19 @@
 
   console.log(randomNumber)
 
-  if (randomNumber === 0)
-    computerChoice = "Heads"
-  else
-    computerChoice = "Tails"
+  if (randomNumber === 0) {
+    computerChoice = "Heads";
+  } else {
+    computerChoice = "Tails";
+  }
 
   console.log(computerChoice);
 
-  if (computerChoice == userChoice)
-    alert(`You guessed right, the coinflip landed on ${userChoice}!`)
-  else
-    alert(`Sorry, the coinflip landed on ${computerChoice}.`)
+  if (computerChoice == userChoice) {
+    alert(`You guessed right, the coinflip landed on ${userChoice}!`);
+  } else {
+    alert(`Sorry, the coinflip landed on ${computerChoice}.`);
+  }
 
 
 // Part 2 of the assignment
@@ -42,12 +44,15 @@ var userAge = currentYear -= birthYear
 
 console.log(userAge)
 
-if (userAge > 21)
-  alert("You are old enough to drink in the US.")
-if (userAge < 21)
-  alert("Sorry, You are not old enough to drink in the US.")
-if (userAge === 21)
-  alert("You are old enough to drink in the US...barely.")
+if (userAge > 21) {
+  alert("You are old enough to drink in the US.");
+}
+if (userAge < 21) {
+  alert("Sorry, You are not old enough to drink in the US.");
+}
+if (userAge === 21) {
+  alert("You are old enough to drink in the US...barely.");
+}
 
 
 
